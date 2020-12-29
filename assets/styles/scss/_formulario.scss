@@ -1,0 +1,43 @@
+/*-------------------------- Formulario------------------------*/
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+}
+ 
+.formulario {
+    display:block;
+    margin:0 auto;
+    width:510px;
+    color: #666666;
+    font-family:Arial;
+}
+ 
+form {
+    margin:0 auto;
+    width:400px;
+}
+ 
+input, textarea {
+    width:38rem;
+    height:2.7rem;
+    background:#666666;
+    border:2px solid #f6f6f6;
+    padding:1rem;
+    margin-top: 0.5rem;
+    font-size:1.2rem;
+    color:#ffffff;
+}
+ 
+textarea {
+    height:15rem;
+}
+ 
+#submit {
+    width:8.5rem;
+    height:3.5rem;
+    border:none;
+    margin-top:2rem;
+    cursor:pointer;
+}

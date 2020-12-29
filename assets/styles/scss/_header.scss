@@ -1,0 +1,61 @@
+/* Header */
+
+header {
+      width: 100%;
+      height: 700px;
+      background: url(../../images/imagen1.png); 
+      /*     background: #bc4e9c;
+      background: #833ab4;  /* fallback for old browsers 
+  background: -webkit-linear-gradient(to right, #88510485, hsla(0, 31%, 48%, 0.89), #833ab4);  
+  background: linear-gradient(to right, #fcb04598, hsla(0, 33%, 51%, 0.664), #833ab4), url(../../images/imagen1.png); 
+  */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  }
+  
+  .titulos__inicio h1 {
+      color: white;
+      letter-spacing: 0.2rem;
+      padding-left: 10rem;
+      padding-top: 15rem;
+      max-width: 55rem;
+      line-height: 1.2;
+  }
+  
+  .titulos__inicio p {
+      position: relative;
+      color: white;
+      padding-left: 10rem;
+      max-width: 40rem;
+      font-size: 1.4rem;
+      line-height: 1.8;
+  }
+  
+  .titulos__inicio .boton__inicio {
+      width: 15rem;
+      background-color: #E0752F;
+      margin: 0.5rem;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      font-size: 1.6rem;
+      margin-top: 4rem;
+      margin-left: 10rem;
+  }
+  
+  .titulos__inicio .boton__inicio hover {
+      opacity: 0.50;
+      -moz-opacity: .50;
+      filter: alpha(opacity=50);
+  }
+  
+  .titulos__inicio .boton__inicio a{
+      color: #fff;
+      text-decoration: none;
+      padding: 5px 5px 5px 0;
+  }
+  .wave {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+  }

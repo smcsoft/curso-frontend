@@ -1,0 +1,62 @@
+/*-------------------------------- Seccion Productos --------------------------------*/
+.section__products {
+    background: linear-gradient(90deg, #F2F4F1 75%, #DCE1DA 25%);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.products__content {
+    width: 100%;
+    height: 55rem;
+    max-width: 112rem;
+    margin: auto;
+    background-image: url("../../images/section3-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.products__content__cards {
+    background-color:#E0752F;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 470px;
+    height: 304px;
+    padding: 50px;
+    color: #ffffff;
+}
+
+.products__content__cards h3, .products__content__cards h2 {
+    color: #ffffff;
+    line-height: 1;
+}
+
+.products__content__cards h3 {
+    margin: 0;
+    padding-bottom: 0;
+    font-size: 1.6rem;
+}
+
+.products__content__cards h2 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    padding-top: 0;
+    font-size: 4rem;
+}
+
+.products__content__cards__navs {
+    position: absolute;
+    bottom: 5rem;
+    right: 5rem;
+}
+
+.nav__left {
+    content:'▲';
+    float: left;
+}
+
+.nav__right {
+    content:'▲';
+    float: right;
+}  

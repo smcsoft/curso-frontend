@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+        box-sizing: border-box;
+        }
+        *, *:before, *:after {
+        box-sizing: inherit;
+        }
+        .d-none {
+            display: none !important;
+        }
+        .section {
+            height: 100vh;
+            min-height: 800px;
+        }
+        .section-products {
+            background: linear-gradient(90deg, #F2F4F1 75%, #DCE1DA 25%);
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        .products-content {
+            width: 100%;
+            height: 552px;
+            max-width: 1120px;
+            margin: auto;
+            background-image: url("assets/images/section3-image.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .products-content-cards {
+            background-color:#E0752F;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 470px;
+            height: 304px;
+            padding: 50px;
+            color: #ffffff;
+        }
+        .products-content-cards h3, .products-content-cards h2 {
+            color: #ffffff;
+            line-height: 1;
+        }
+        .products-content-cards h3 {
+            margin: 0;
+            padding-bottom: 0;
+            font-size: 16px;
+        }
+        .products-content-cards h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            padding-top: 0;
+            font-size: 39px;
+        }
+        .products-content-cards-navs {
+            position: absolute;
+            bottom: 50px;
+            right: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#inicio">
+            <img src="assets/images/top-logo.svg" alt="logo 25Watts">
+        </a>
+         <nav>
+             <ul>
+                 <li><a href="#inicio">Home</a></li>
+                 <li><a href="#about">About</a></li>
+                 <li><a href="#products">Products</a></li>
+                 <li><a href="#services">Services</a></li>
+                 <li><a href="#contact">Contact</a></li>
+             </ul>
+         </nav>
+    </header>
+    <main class="main">
+        <section id="inicio" class="section-inicio">
+            <div class="slider">
+                <div class="slider-items">
+                    <div class="slider-item">
+                        <h2>Sed ut perspiciatis unde omnis iste natus</h2>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+                        <a href="">Read more</a>
+                    </div>
+                    <div class="slider-item">
+                        <h2>Sed ut perspiciatis unde omnis iste natus</h2>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+                        <a href="">Read more</a>
+                    </div>
+                    <div class="slider-item">
+                        <h2>Sed ut perspiciatis unde omnis iste natus</h2>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+                        <a href="">Read more</a>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>We Help Businesses <span>Grow and Innovate</span></h2>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+        </section>
+        <section id="products" class="section section-products">
+            <div class="products-content">
+                <div class="products-content-cards">
+                    <div>
+                        <h3>Sed ut perspiciatis</h3>
+                        <h2>Nemo Enim</h2>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                    </div>
+                    <div class="d-none">
+                        <h3>Sed ut perspiciatis</h3>
+                        <h2>Nemo Enim</h2>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                    </div>
+                    <div class="d-none">
+                        <h3>Sed ut perspiciatis</h3>
+                        <h2>Nemo Enim</h2>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                    </div>
+                    <div class="products-content-cards-navs">
+                        <a href="javascript:;" class="nav-left"><img src="assets/images/icon-feather-arrow-left-circle.svg" alt=""></a>
+                        <a href="javascript:;" class="nav-right"><img src="assets/images/icon-feather-arrow-right-circle.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services">
+            <div class="accordion">
+                <div class="accordion-card">
+                    <a href="" class="accordion-card-title">Sed ut perspiciatis</a>
+                    <div class="accordion-card-contnent">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+                </div>
+                <div class="accordion-card">
+                    <a href="" class="accordion-card-title">Ut enim ad minima veniam</a>
+                    <div class="accordion-card-contnent">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+                </div>
+                <div class="accordion-card">
+                    <a href="" class="accordion-card-title">SSit amet, consectetur, adipisci</a>
+                    <div class="accordion-card-contnent">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="form">
+                <h3><span>Get in touch</span> We are hiring!</h3>
+                <form action="" method="post">
+                    <label>
+                        Name 
+                        <input type="text" name="name">
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" name="email">
+                    </label>
+                    <label>
+                        Phone
+                        <input type="text" name="phone">
+                    </label>
+                    <label>
+                        Message
+                        <textarea name="message" cols="30" rows="10"></textarea>
+                    </label>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            <img src="assets/images/contact-image.png" alt="imagen de contacto">
+        </section>
+    </main>
+    <footer>
+        <p>2020 © All rights reserved.</p>
+        <img src="assets/images/footer-logo.svg" alt="logo 25Watts">
+    </footer>
+</body>
+</html>

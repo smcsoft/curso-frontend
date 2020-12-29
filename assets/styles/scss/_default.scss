@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/** Globales ***/
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  /** reset para REMS - 62.5% = 10px de 16px **/
+}
+
+html, body {
+  margin: 0;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+
+.d-none {
+  display: none !important;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+  }
+  
+  h1 {
+    font-size: 4.2rem;
+  }
+  
+  h2 {
+    font-size: 3.4rem;
+  }
+  
+  h3 {
+    font-size: 3rem;
+  }
+  
+  h4 {
+    font-size: 2.6rem;
+  }
+  
+  p {
+    text-align: justify;
+    font-size: 1.7rem;
+  }
+  
+  .contenido {
+    max-width: 100%;
+    /** = 1200px; **/
+    margin: 0 auto;
+  }

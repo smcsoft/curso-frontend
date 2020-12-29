@@ -1,0 +1,461 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/** Globales ***/
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /** reset para REMS - 62.5% = 10px de 16px **/
+}
+
+html, body {
+  margin: 0;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+
+.d-none {
+  display: none !important;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 4.2rem;
+}
+
+h2 {
+  font-size: 3.4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.6rem;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.7rem;
+}
+
+.contenido {
+  max-width: 100%;
+  /** = 1200px; **/
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  width: 100%;
+  height: 700px;
+  background: url(../../images/imagen1.png);
+  /*     background: #bc4e9c;
+      background: #833ab4;  /* fallback for old browsers 
+  background: -webkit-linear-gradient(to right, #88510485, hsla(0, 31%, 48%, 0.89), #833ab4);  
+  background: linear-gradient(to right, #fcb04598, hsla(0, 33%, 51%, 0.664), #833ab4), url(../../images/imagen1.png); 
+  */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.titulos__inicio h1 {
+  color: white;
+  letter-spacing: 0.2rem;
+  padding-left: 10rem;
+  padding-top: 15rem;
+  max-width: 55rem;
+  line-height: 1.2;
+}
+
+.titulos__inicio p {
+  position: relative;
+  color: white;
+  padding-left: 10rem;
+  max-width: 40rem;
+  font-size: 1.4rem;
+  line-height: 1.8;
+}
+
+.titulos__inicio .boton__inicio {
+  width: 15rem;
+  background-color: #E0752F;
+  margin: 0.5rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  margin-top: 4rem;
+  margin-left: 10rem;
+}
+
+.titulos__inicio .boton__inicio hover {
+  opacity: 0.50;
+  -moz-opacity: .50;
+  filter: alpha(opacity=50);
+}
+
+.titulos__inicio .boton__inicio a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 5px 5px 0;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
+  padding: 30px 10%;
+  border-bottom: 3px solid orange;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0099a9;
+}
+
+/*
+    width: 100%;
+    height: 80px;
+    background: #FCE5CD;
+    color: #fff;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    position: fixed;
+    z-index: 100;
+    */
+/*
+.logo {
+    width: 30%;
+}
+
+.logo img {
+    width: 25%;
+    height: 25%;
+    padding-left: 50px;
+}
+
+
+
+nav > a:hover{
+    background: rgba(0,0,0,.1);
+    border-radius: 10px;
+}
+
+nav > a:active{
+    background: #29487e;
+}
+
+.social {
+    flex:1 1 auto;
+}
+*/
+/*-------------- Seccion---------------------------*/
+section {
+  width: 94%;
+  height: 77rem;
+  margin: 0 auto;
+}
+
+/*-------------------------------- Seccion About --------------------------------*/
+#about .conteiner__about {
+  margin-top: 20%;
+  height: 55%;
+  border-left: 3rem solid orange;
+}
+
+#about .about {
+  line-height: 3rem;
+  margin-left: 18%;
+  width: 57%;
+}
+
+#about h2 {
+  margin-left: 18%;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  max-width: 37rem;
+}
+
+/*-------------------------------- Seccion Productos --------------------------------*/
+.section__products {
+  background: -webkit-gradient(linear, left top, right top, color-stop(75%, #F2F4F1), color-stop(25%, #DCE1DA));
+  background: linear-gradient(90deg, #F2F4F1 75%, #DCE1DA 25%);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.products__content {
+  width: 100%;
+  height: 55rem;
+  max-width: 112rem;
+  margin: auto;
+  background-image: url("../../images/section3-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.products__content__cards {
+  background-color: #E0752F;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 470px;
+  height: 304px;
+  padding: 50px;
+  color: #ffffff;
+}
+
+.products__content__cards h3, .products__content__cards h2 {
+  color: #ffffff;
+  line-height: 1;
+}
+
+.products__content__cards h3 {
+  margin: 0;
+  padding-bottom: 0;
+  font-size: 1.6rem;
+}
+
+.products__content__cards h2 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  padding-top: 0;
+  font-size: 4rem;
+}
+
+.products__content__cards__navs {
+  position: absolute;
+  bottom: 5rem;
+  right: 5rem;
+}
+
+.nav__left {
+  content: '▲';
+  float: left;
+}
+
+.nav__right {
+  content: '▲';
+  float: right;
+}
+
+/*---------------------- Services ------------------ */
+.services__imagen {
+  width: 55%;
+  height: 55rem;
+  max-width: 112rem;
+  background-image: url("../../images/section4-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: right;
+}
+
+.accordion {
+  display: inline-block;
+  position: absolute;
+  width: 50%;
+  padding: 2rem;
+  margin-top: 10rem;
+}
+
+.btn__item {
+  background: rgba(182, 179, 179, 0.5);
+  color: black;
+  padding: 1rem;
+  font-weight: bold;
+  border-bottom: 0.2rem solid rgba(112, 161, 120, 0.705);
+}
+
+.item__content {
+  border: 0.1rem solid black;
+  overflow: hidden;
+  max-height: 0px;
+  opacity: 0;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+.active + .item__content {
+  max-height: 200rem;
+  padding: 2rem;
+  opacity: 1;
+}
+
+.btn__item.active {
+  background: #de9002;
+}
+
+.btn__item:after {
+  content: '▲';
+  float: right;
+}
+
+.btn__item.active:after {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  float: right;
+}
+
+.btn__item.active:hover {
+  color: pink;
+  border-color: pink;
+}
+
+#services .imagen {
+  width: 60%;
+  float: right;
+}
+
+/*-------------------------------- Seccion Contact --------------------------------*/
+.section__contact {
+  background: -webkit-gradient(linear, left top, right top, color-stop(75%, #F2F4F1), color-stop(25%, #DCE1DA));
+  background: linear-gradient(90deg, #F2F4F1 75%, #DCE1DA 25%);
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+#contact h2 {
+  padding-left: 6rem;
+  max-width: 28rem;
+  margin-bottom: 2rem;
+}
+
+#contact .formulario {
+  display: inline-block;
+}
+
+.btn__enviar {
+  background: orange;
+  color: black;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  float: right;
+}
+
+.imagen__contacto {
+  position: relative;
+  float: right;
+  right: 10rem;
+}
+
+/*-------------------------------- Footer --------------------------------*/
+footer {
+  background-color: black;
+  height: 8rem;
+  width: 100%;
+  margin: 0 auto;
+  /*
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: left;
+    */
+}
+
+footer h5 {
+  position: relative;
+  display: inline-block;
+  top: 3rem;
+  left: 10rem;
+  color: white;
+}
+
+footer .logo {
+  position: relative;
+  top: 2.5rem;
+  float: right;
+  right: 10rem;
+}
+
+/*-------------------------- Formulario------------------------*/
+label {
+  display: block;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+.formulario {
+  display: block;
+  margin: 0 auto;
+  width: 510px;
+  color: #666666;
+  font-family: Arial;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+}
+
+input, textarea {
+  width: 38rem;
+  height: 2.7rem;
+  background: #666666;
+  border: 2px solid #f6f6f6;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+textarea {
+  height: 15rem;
+}
+
+#submit {
+  width: 8.5rem;
+  height: 3.5rem;
+  border: none;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=appn.css.map */

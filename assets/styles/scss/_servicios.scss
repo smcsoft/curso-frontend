@@ -1,0 +1,63 @@
+/*---------------------- Services ------------------ */
+.services__imagen {
+    width: 55%;
+    height: 55rem;
+    max-width: 112rem;
+    background-image: url("../../images/section4-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+}
+
+.accordion {
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    padding: 2rem;
+    margin-top: 10rem;
+}
+
+.btn__item {
+    background: rgba(182, 179, 179,0.5);
+    color: black;
+    padding: 1rem;
+    font-weight: bold;
+    border-bottom: 0.2rem solid rgba(112, 161, 120, 0.705);
+}
+
+.item__content {
+    border: 0.1rem solid black;
+    overflow: hidden;
+    max-height: 0px;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+
+.active + .item__content {
+    max-height: 200rem;
+    padding: 2rem;
+    opacity: 1;
+}
+
+.btn__item.active {
+    background: #de9002;
+}
+.btn__item:after {
+    content:'▲';
+    float: right;
+}
+
+.btn__item.active:after {
+    transform: rotate(180deg);
+    float: right;
+}
+
+.btn__item.active:hover{
+	color:pink;
+	border-color:pink;
+}
+
+#services .imagen {
+    width: 60%;
+    float: right;
+}

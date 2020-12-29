@@ -1,0 +1,26 @@
+.navbar {
+    float: right;
+    padding-right: 20rem;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    display: block;
+    height: 8rem;
+    padding: 3.7rem 1.6rem;
+    border-radius: 0.7rem;
+    letter-spacing: 0.1rem;
+    color: #d6cfcf;
+    font-weight: bold;
+    transition: all 0.4s linear;
+    transition: .5s;
+}
+
+a:active,a:hover {
+    background: blue;
+    transition: .5s;
+    font-weight: bold;
+}

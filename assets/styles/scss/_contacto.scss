@@ -1,0 +1,31 @@
+/*-------------------------------- Seccion Contact --------------------------------*/
+.section__contact {
+    background: linear-gradient(90deg, #F2F4F1 75%, #DCE1DA 25%);
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+#contact h2 {
+    padding-left: 6rem;
+    max-width: 28rem;
+    margin-bottom: 2rem;
+}
+
+#contact .formulario {
+    display: inline-block;
+}
+
+.btn__enviar {
+    background: orange;
+    color: black;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    float: right;
+}
+
+.imagen__contacto {
+    position: relative;
+    float: right;
+    right: 10rem;
+}
